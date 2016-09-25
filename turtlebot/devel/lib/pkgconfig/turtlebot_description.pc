@@ -1,0 +1,8 @@
+prefix=/home/charles/hri/turtlebot/devel
+
+Name: turtlebot_description
+Description: Description of turtlebot_description
+Version: 2.3.12
+Cflags: 
+Libs: -L/home/charles/hri/turtlebot/devel/lib 
+Requires: urdf xacro

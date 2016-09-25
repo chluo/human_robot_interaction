@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/charles/hri/civilbot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/charles/hri/civilbot_ws/install -G Unix Makefiles

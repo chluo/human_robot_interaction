@@ -1,0 +1,8 @@
+prefix=/home/charles/hri/teleopbot_ws/install
+
+Name: teleopbot
+Description: Description of teleopbot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/charles/hri/teleopbot_ws/install/lib 
+Requires: 

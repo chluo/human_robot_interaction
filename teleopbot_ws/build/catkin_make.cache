@@ -1,0 +1,2 @@
+teleopbot
+-DCATKIN_DEVEL_PREFIX=/home/charles/hri/teleopbot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/charles/hri/teleopbot_ws/install -G Unix Makefiles

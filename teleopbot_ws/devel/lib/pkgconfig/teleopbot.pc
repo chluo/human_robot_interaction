@@ -1,0 +1,8 @@
+prefix=/home/charles/hri/teleopbot_ws/devel
+
+Name: teleopbot
+Description: Description of teleopbot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/charles/hri/teleopbot_ws/devel/lib 
+Requires: 

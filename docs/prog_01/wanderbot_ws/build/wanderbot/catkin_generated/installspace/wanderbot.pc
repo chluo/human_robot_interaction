@@ -1,0 +1,8 @@
+prefix=/home/charles/hri/wanderbot_ws/install
+
+Name: wanderbot
+Description: Description of wanderbot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/charles/hri/wanderbot_ws/install/lib 
+Requires: 

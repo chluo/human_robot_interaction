@@ -1,0 +1,2 @@
+basics:my_awesome_code
+-DCATKIN_DEVEL_PREFIX=/home/charles/hri/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/charles/hri/catkin_ws/install -G Unix Makefiles
