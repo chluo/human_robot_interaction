@@ -1,2 +1,0 @@
-turtlebot:turtlebot_bringup:turtlebot_capabilities:turtlebot_description:turtlebot_teleop
--DCATKIN_DEVEL_PREFIX=/home/charles/hri/turtlebot/devel -DCMAKE_INSTALL_PREFIX=/home/charles/hri/turtlebot/install -G Unix Makefiles
