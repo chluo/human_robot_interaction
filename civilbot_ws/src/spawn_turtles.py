@@ -20,14 +20,14 @@ TurtleSpawn = rospy.ServiceProxy('spawn', Spawn)
 
 Turtles = { \
   'Alex'    : [0.5, 0.5, PI/4], \
-  'Bob'     : [8, 8, 0       ], \
-  'Charlie' : [5.5, 8, 0     ], \
-  'Deb'     : [3, 8, 0       ], \
-  'Emma'    : [3, 5.5, 0     ], \
-  'Frank'   : [3, 3, 0       ], \
-  'George'  : [5.5, 3, 0     ], \
-  'Hellen'  : [8, 3, 0       ], \
-  'Isac'    : [8, 5.5, 0     ]  \
+  'Bob'     : [8, 8, PI/4    ], \
+# 'Charlie' : [5.5, 8, 0     ], \
+  'Deb'     : [3, 8, PI/4    ], \
+# 'Emma'    : [3, 5.5, 0     ], \
+  'Frank'   : [3, 3, PI/4    ], \
+# 'George'  : [5.5, 3, 0     ], \
+  'Hellen'  : [8, 3, PI/4    ]  \
+# 'Isac'    : [8, 5.5, 0     ]  \
 }
 
 for key, val in Turtles.items(): 
