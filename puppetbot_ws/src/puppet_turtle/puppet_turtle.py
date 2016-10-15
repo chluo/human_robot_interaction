@@ -56,6 +56,8 @@ def StateTrans (msg) :
   global SpeedInc
   global SpeedDec
 
+  print 'Got you!'  
+
   if   (msg.keyphrase == 'WALK AHEAD'  ) : 
     if (CurState != 'WALK') : 
       NxtState = 'WALK' 
@@ -117,7 +119,7 @@ def StateTrans (msg) :
 cmd_vel_pub = rospy.Publisher('cmd_vel', Twist, queue_size=1)
 
 # Speech command subscriber 
-hlpr_speech_sub = rospy.Subscriber('hlpr_speech_commands', StampedString, StateTrans)
+hlpr_speech_sub = rospy.Subscriber('speech_cmd', StampedString, StateTrans)
 
 # State change rate
 rate = rospy.Rate(10)
