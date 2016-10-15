@@ -1,0 +1,8 @@
+prefix=/home/charles/hri/human_robot_interaction/puppetbot_ws/devel
+
+Name: hlpr_speech
+Description: Description of hlpr_speech
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/charles/hri/human_robot_interaction/puppetbot_ws/devel/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/charles/hri/human_robot_interaction/puppetbot_ws/devel
+
+Name: hlpr_speech_msgs
+Description: Description of hlpr_speech_msgs
+Version: 0.0.0
+Cflags: -I/home/charles/hri/human_robot_interaction/puppetbot_ws/devel/include
+Libs: -L/home/charles/hri/human_robot_interaction/puppetbot_ws/devel/lib 
+Requires: std_msgs
